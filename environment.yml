@@ -1,4 +1,4 @@
-name: tf
+name: coe
 channels:
   - defaults
 dependencies:
