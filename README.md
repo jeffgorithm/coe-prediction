@@ -81,13 +81,12 @@ jupyter notebook
 - Trained models with k-fold cross validation
 
 ## Results
-| Model|Unified (RMSE)|Cat A (RMSE)|Cat B (RMSE)|
-|---|---|---|---|
-| LR            | 3881| 2633|3489|
-| Lasso         | 3845|2707|3478|
-| Ridge         | 4081|2838|3489|
-| ElasticNet    | 3845|2707|3478|
-| k-Neighbors   | 8464|12079|7948|
-| Decision Tree | 5403|3423|5093|
-| Random Forest | 3293|2638|3258|
-| MLP           | **2932**|**2202**|**2747**|
+| Model|Unified (MAE)|Unified (RMSE)|Cat A (MAE)|Cat A (RMSE)|Cat B (MAE)|Cat B (RMSE)|
+|---|---|---|---|---|---|---|
+| LR            |2866|3881|2108|2633|2349|3489|
+| Lasso         |2849|3845|2179|2707|2317|3478|
+| Ridge         |3495|4411|2108|2633|2349|3489|
+| ElasticNet    |2849|3845|2179|2707|2317|3478|
+| Decision Tree |4567|6068|3403|4671|3391|4679|
+| Random Forest |2532|3411|2113|2750|2352|3276|
+| MLP           |**1703**|**2231**|**1432**|**1845**|**1777**|**2466**|
